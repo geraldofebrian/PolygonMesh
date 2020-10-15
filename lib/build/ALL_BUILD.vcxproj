@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8668E460-ECB8-32DE-BDF4-C8731842E870}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2 -BD:/Documents/GitHub/PolygonMesh/lib/build --check-stamp-file D:/Documents/GitHub/PolygonMesh/lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\cmake_uninstall.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3.pc.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3Config.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2 -BD:/Documents/GitHub/PolygonMesh/lib/build --check-stamp-file D:/Documents/GitHub/PolygonMesh/lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\cmake_uninstall.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3.pc.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3Config.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2 -BD:/Documents/GitHub/PolygonMesh/lib/build --check-stamp-file D:/Documents/GitHub/PolygonMesh/lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\cmake_uninstall.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3.pc.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3Config.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/GitHub/PolygonMesh/lib/glfw-3.3.2 -BD:/Documents/GitHub/PolygonMesh/lib/build --check-stamp-file D:/Documents/GitHub/PolygonMesh/lib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeRCCompiler.cmake;D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\3.19.0-rc1\CMakeSystem.cmake;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\cmake_uninstall.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3.pc.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw3Config.cmake.in;D:\Documents\GitHub\PolygonMesh\lib\glfw-3.3.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Documents\GitHub\PolygonMesh\lib\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\ZERO_CHECK.vcxproj">
+      <Project>{E4CEEF3C-D8D1-3C1D-A283-5AC1C1D0EB6E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\boing.vcxproj">
+      <Project>{584FEC1E-F88C-3338-AB51-CDD0A29541A0}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\clipboard.vcxproj">
+      <Project>{0C21BFB2-3150-3521-B694-3C043B44064F}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\cursor.vcxproj">
+      <Project>{589C4FD8-9298-357C-9A8A-8D9DD3B91E6A}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\empty.vcxproj">
+      <Project>{B1D3CF2F-95DC-3E19-B170-4E194AF04EC9}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\events.vcxproj">
+      <Project>{336CC317-AE00-3548-80B3-44D8C7C7F56A}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\gamma.vcxproj">
+      <Project>{06CEC60A-190B-344E-8CD3-AC14CF7ECBE8}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\gears.vcxproj">
+      <Project>{2938B5F9-35FB-3AAB-8407-596B7E7ACA8E}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\src\glfw.vcxproj">
+      <Project>{7E60617E-6775-3F05-BBBA-7F4FFAD7AA55}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\glfwinfo.vcxproj">
+      <Project>{6AA8C1BB-168A-3BAF-8B31-90E222761564}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\heightmap.vcxproj">
+      <Project>{078B2FD3-DD8B-3FFF-A80F-245C69B05F5C}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\icon.vcxproj">
+      <Project>{3AFFDCF2-1CF6-35FC-B8BE-5BAD1D66AA0A}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\iconify.vcxproj">
+      <Project>{73214D84-48B9-3CDB-A357-720FF8999CF2}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\inputlag.vcxproj">
+      <Project>{24F33569-B9FE-3DDB-8D69-F2EE24C717A8}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\joysticks.vcxproj">
+      <Project>{58249F92-C462-340A-9396-36591A9032D9}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\monitors.vcxproj">
+      <Project>{E128E978-D9A6-3D04-9D8F-49724B06F405}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\msaa.vcxproj">
+      <Project>{9985CC92-5EB9-3E71-A42D-9FE1E7AC25FE}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\offscreen.vcxproj">
+      <Project>{8282508C-C10A-33A9-B78B-A12DB819AA52}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\opacity.vcxproj">
+      <Project>{C92FBE04-1176-3A62-9834-0299DCFCD7EB}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\particles.vcxproj">
+      <Project>{6B84E6AB-BD78-3B19-A4C4-A43D78152F50}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\reopen.vcxproj">
+      <Project>{A0B750E9-4D2C-3408-A346-6C8D25016861}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\sharing.vcxproj">
+      <Project>{02AA417A-EF7A-3F15-A9AE-626C425DE209}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\simple.vcxproj">
+      <Project>{43F5E8C2-5841-3AE4-90B2-51F00B43A7B7}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\splitview.vcxproj">
+      <Project>{B4CD66BA-5836-3E4A-85E5-84C915BF4AB5}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\tearing.vcxproj">
+      <Project>{3E4CA4D7-BED2-309F-A8A4-2D03E49D95D6}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\threads.vcxproj">
+      <Project>{DD0E3769-44AA-3652-9A65-DEE456BF1ACC}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\timeout.vcxproj">
+      <Project>{8410C7BC-5CAB-3E99-BDCF-6562BA723182}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\title.vcxproj">
+      <Project>{F3A281C9-1F8F-3950-B7A7-CCC554538E42}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\triangle-vulkan.vcxproj">
+      <Project>{7A6435F9-6D0F-3A09-A80E-80A306C11B4C}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\examples\wave.vcxproj">
+      <Project>{0E7DC0F7-54D8-3247-A1BE-5447F3B60DE9}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\GitHub\PolygonMesh\lib\build\tests\windows.vcxproj">
+      <Project>{60CC1216-5931-39C0-8130-F415893B5331}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
